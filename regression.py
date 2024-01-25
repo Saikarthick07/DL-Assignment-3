@@ -49,6 +49,6 @@ def fit_regression_model(X, y):
         previos_loss = loss.item()
         # This is a good place to print the loss every 1000 epochs.
         if epoch % 1000 == 0:
-        print(f'Epoch {epoch}, Loss: {loss.item()}')
+            print(f'Epoch {epoch}, Loss: {loss.item()}')
     return model, loss
 
